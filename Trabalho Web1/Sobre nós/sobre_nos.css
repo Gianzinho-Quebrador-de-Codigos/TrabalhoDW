@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 107px;
+    margin-bottom: 30px;
+    margin-right: 70px;
+    margin-left: 70px;
+    padding: 20px;
+    border-style: ridge;
+    border-color: rgba(252, 236, 207, 0.466);
+    background-color: rgba(0, 0, 0, 0.815);
+}
+
+body {
+    background-image: url(FotosCssSobre/FundoSobre.png);
+    background-attachment: fixed;
+}
+
+.tituloTopo {
+    color: darkblue;
+}
+
+.listaTopo {
+    font-size: 100%;
+    margin-left: 5%;
+    transition: .5s;
+}
+
+#easter_egg {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+#lattes {
+    color: coral;
+    cursor: pointer;
+}
+
+#imgtutuba {
+    width: 70%;
+    border-radius: 35%;
+    border-style: solid;
+    border-color: darkgray;
+}
+
+#tutuba {
+    text-align: center;
+    margin: 0%;
+}
+
+.linkTopo {
+    color: rgb(28, 89, 182);
+    text-decoration: none;
+    cursor: pointer;
+    padding: 1.5%;
+}
+
+.osBixoFeio {
+    margin-top: 40%;
+    padding: 5%;
+    background-color: rgba(46, 7, 109, 0.651);
+    margin: 50px;
+    border-style: ridge;
+    border-color: rgb(0, 0, 0);
+    border-width: 1.5mm;
+    font-size: 20px;
+    color: #fff
+}
+
+#parteAug {
+    width: 22%;
+    float: right;
+}
+
+#partePed {
+    width: 22%;
+    float: left;
+}
+
+#parteGian {
+    width: 22%;
+    float: right;
+}
+
+#parteFabio {
+    width: 22%;
+    float: left;
+}
+
+#textoP {
+    margin-left: 26%;
+}
+
+#textoF {
+    margin-left: 26%;
+}
+
+.osBixoFeio img:hover {
+    transform: scale(1.1);
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+#deadpool {
+    position: flex;
+    top: -31.7%;
+    transform: rotate(-5deg);
+}
+
+#obi {
+    position: flex;
+    top: -31.5%;
+    right: -1.5%;
+}
+
+.rodape {
+    background-color: black;
+    color: white;
+    height: 30px;
+    text-align: center;
+    bottom: 0;
+    padding-top: 10px;
+    position: fixed;
+    width: 100%;
+}

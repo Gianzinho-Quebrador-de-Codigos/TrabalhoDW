@@ -1,0 +1,51 @@
+/*#tituloTopo span {
+    position: relative;
+    font-size: 175%;
+    text-align: center;
+    
+    background: linear-gradient(to right, rgb(28, 89, 182) 50%, rgb(66, 74, 90) 50%);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    padding: 0%;
+    display: flex;
+}*/
+
+.cabecalho_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    display: none;
+}
+
+#navTopo {
+    display: none;
+    text-align: right;
+    padding-top: 40px;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    #tituloTopo {
+        text-align: center;
+        width: auto;
+    }
+    #navTopo {
+        position: static;
+    }
+    #obi {
+        display: none;
+    }
+    #deadpool {
+        display: none;
+    }
+    .linha {
+        display: none;
+    }
+    #tutuba {
+        display: none;
+    }
+}
